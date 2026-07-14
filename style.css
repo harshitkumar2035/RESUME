@@ -78,3 +78,22 @@ body{
     margin-bottom:8px;
     line-height:1.7;
 }
+.education{
+    margin-top:10px;
+}
+.education-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:8px;
+}
+.education-header h3{
+    font-size:18px;
+}
+.education-header span{
+    color:#555;
+    font-style:italic;
+}
+.education p{
+    margin-bottom:6px;
+}
