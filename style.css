@@ -1,3 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 body{
-
+    background:#eeeeee;
+    font-family:Georgia, "Times New Roman", serif;
+    padding:40px;
+}
+.resume{
+    width:210mm;
+    min-height:297mm;
+    background:white;
+    margin:auto;
+    padding:40px 50px;
+    box-shadow:0 0 20px rgba(0,0,0,.15);
+}
+.header{
+    text-align:center;
+}
+.header h1{
+    font-size:34px;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+.contact{
+    margin-top:12px;
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+    font-size:15px;
+}
+.section{
+    margin-top:25px;
+}
+.section h2{
+    font-size:18px;
+    text-transform:uppercase;
+    border-bottom:2px solid black;
+    padding-bottom:5px;
+    margin-bottom:15px;
+}
+.section p{
+    font-size:15px;
+    line-height:1.8;
+    text-align:justify;
+}
+.skill{
+    margin-bottom:10px;
+    font-size:15px;
+}
+.skill strong{
+    display:inline-block;
+    width:120px;
 }
