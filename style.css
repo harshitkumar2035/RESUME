@@ -181,6 +181,36 @@ body{
     background:#084fc7;
     transform:translateY(-2px);
 }
+/* ===========================
+   PRINT / PDF SETTINGS
+=========================== */
+
+@media print {
+
+    /* Browser header & footer ko remove karne ki koshish */
+    @page{
+        size:A4;
+        margin:12mm;
+    }
+
+    /* Buttons hide */
+    .top-bar{
+        display:none !important;
+    }
+
+    /* Resume full width */
+    body{
+        margin:0;
+        padding:0;
+        background:#fff;
+    }
+
+    .resume{
+        width:100%;
+        box-shadow:none;
+        border:none;
+    }
+}
 .dark{
     background:#1b1b1b;
 }
@@ -249,4 +279,40 @@ footer{
     margin-top:30px;
     color:#666;
     font-size:14px;
+}
+.project{
+    margin-bottom:25px;
+}
+
+.project-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #ddd;
+    padding-bottom:5px;
+    margin-bottom:8px;
+}
+
+.project-header h3{
+    font-size:18px;
+    font-weight:600;
+}
+
+.project-header span{
+    color:#666;
+    font-size:14px;
+}
+
+.project p{
+    margin:8px 0;
+    font-size:14px;
+}
+
+.project ul{
+    padding-left:20px;
+}
+
+.project li{
+    margin-bottom:6px;
+    line-height:1.5;
 }
